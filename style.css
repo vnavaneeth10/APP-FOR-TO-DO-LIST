@@ -47,7 +47,7 @@ body{
     opacity:1;
 }
 
-/* #list{
+#list{
     position: absolute;
     top:8em;
     left:17em;
@@ -58,7 +58,7 @@ body{
     text-align: center;
     box-shadow: 0px 2px 2px 0px black;
     border-radius: 15px;
-} */
+}
 
 #list thead{
     font-size: x-large;
