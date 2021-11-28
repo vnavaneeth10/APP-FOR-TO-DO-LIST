@@ -4,7 +4,7 @@ function displayList()
     const xhr = new XMLHttpRequest(); 
     xhr.onreadystatechange = function()
     {
-        if(xhr.readyState ==4 && xhr.status == 200)
+        if(xhr.readyState == 4 && xhr.status == 200)
         {
             let myobj = JSON.parse(this.responseText);
             setTable(myobj); 
@@ -31,7 +31,7 @@ for(let i=0;i<obj.length;i++)
     
     if(obj[i].completed==true)
 {
-    table+="<td>"+obj[i].title+"</td><td><input type= checkbox checked disabled ></td>";
+    table+="<td>"+obj[i].title+"</td><td><input type= checkbox checked disabled></td>";
 }
     
 else
@@ -51,9 +51,6 @@ else
     
 }
    
-
-
-
 function checkcounter()
     
 {
@@ -74,8 +71,8 @@ function checkcounter()
         if(count==5)
         {
         
-        alert("Good Job!You have been completed 5 tasks");
-        alert("press Ok to refresh your page");
+        alert("Congrats!5 Tasks Completed");
+        // alert("press Ok to refresh your page");
         location.reload();      
          
         } 
