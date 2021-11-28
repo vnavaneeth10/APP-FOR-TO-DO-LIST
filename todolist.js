@@ -72,9 +72,7 @@ function checkcounter()
         {
         
         alert("Congrats. 5 Tasks have been Successfully Completed");
-        // alert("press Ok to refresh your page");
-        // location.reload();      
-         
+           
         } 
         
  }           
