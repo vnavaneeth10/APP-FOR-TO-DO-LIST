@@ -56,14 +56,14 @@ function checkcounter()
 {
     var i=0;
     var count=0;
-    check = document.getElementByName("check");
+    check = document.getElementsByName("check");
     
     for(i=0;i<check.length;i++)
     
   {
        if(check[i].checked==true) 
        {
-        count=count+1;
+        count=count+1
         console.log(count);
         }
   
@@ -71,9 +71,9 @@ function checkcounter()
         if(count==5)
         {
         
-        alert("Congrats!5 Tasks Completed");
+        alert("Congrats. 5 Tasks have been Successfully Completed");
         // alert("press Ok to refresh your page");
-        location.reload();      
+        // location.reload();      
          
         } 
         
